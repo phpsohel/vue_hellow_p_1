@@ -1,15 +1,22 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Axios></Axios>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import Axios from './components/axios-hook'
 export default {
   name: 'App',
+  data() {
+    return {
+      title: 'Learn Vue js Hurrah!',
+    }
+  },
   components: {
-    HelloWorld
+    HelloWorld,
+    Axios,
   }
 }
 </script>

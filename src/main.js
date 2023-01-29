@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import sohel from './App.vue'
+//Globally Filter
 
-createApp(App).mount('#app')
+createApp(sohel).mount('#app')
